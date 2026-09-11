@@ -20,7 +20,7 @@
     <main class="max-w-7xl mx-auto px-6 py-8">
         <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
             <h1 class="text-2xl font-bold text-gray-900 mb-2">Dashboard POS Barokah Mart</h1>
-            <p class="text-gray-600">Struktur awal dashboard untuk Pertemuan 2. Halaman dashboard lengkap dengan metrik penjualan, stok barang, dan grafik akan dibangun pada Pertemuan 5.</p>
+            <p class="text-gray-600">Struktur awal dashboard..</p>
         </div>
     </main>
 </body>

@@ -48,4 +48,10 @@ Route::middleware(['auth', 'role:admin'])->group(function () {
     Route::get('/users', [UserController::class, 'index'])->name('users.index');
 });
 
+Route::middleware(['auth', 'role:kasir'])->group(function () {
+    Route::get('/pos/history', function () {
+        return 'Halaman Riwayat Transaksi Saya (Khusus Kasir)';
+    })->name('pos.history');
+});
+
 

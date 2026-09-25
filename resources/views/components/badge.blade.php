@@ -7,7 +7,7 @@
         'Habis'   => 'bg-red-100 text-red-800',
     ];
 
-    // Ambil warnanya, kalau status tidak cocok kasih warna abu-abu default
+    
     $badgeColor = $classes[$status] ?? 'bg-gray-100 text-gray-800';
 @endphp
 
